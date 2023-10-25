@@ -84,7 +84,7 @@ COPY public.movies (movie_id, movie_name, release_year, category) FROM stdin;
 14	The Godfather	1972	Crime, Drama
 15	Dunkirk	2017	History
 16	Singin In The Rain	1952	Musical, Comedy
-17	Star Ward: The Last Jedi	2017	Action, Sci-Fi
+17	Star Wars: The Last Jedi	2017	Action, Sci-Fi
 18	The Big Sick	2017	Romance
 19	E.T. The Extra-Terrestrial	1982	Adventure, Sci-Fi
 20	King Kong	1933	Adventure, Fantasy
@@ -97,7 +97,7 @@ COPY public.movies (movie_id, movie_name, release_year, category) FROM stdin;
 -- Name: movies_movie_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public.movies_movie_id_seq', 1, false);
+SELECT pg_catalog.setval('public.movies_movie_id_seq', 23, false);
 
 
 --
